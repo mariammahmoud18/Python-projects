@@ -1,0 +1,9 @@
+import numpy as np
+while (True):
+    choice = input("Enter 1 to roll the dice.\nEnter 2 to quit.\n")
+    if choice == '1':
+        number = np.random.randint(1,7)
+        print("The number you got is: ", number)
+    else:
+        print("Thanks for playing with me!")
+        break;
